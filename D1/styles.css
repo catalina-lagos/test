@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebefff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    max-width: 800px;
+}
+.button{
+display: inline-block;
+  padding: 10px 20px;
+  background-color: #8080f3;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover {
+    background-color: #5151f3;
+  }
+  .button-container {
+    text-align: right; 
+    margin-top: 20px;  
+}
+.task-h{
+    margin-top: 80px;
+    color: #4848f6;
+    margin-bottom: 50px;
+}
+.task-p{
+    background-color: rgb(134, 126, 229);
+    color: rgb(244, 238, 249);
+    border-radius: 20px;
+    padding: 20px;
+}
+.short-form-list{
+    display: flex;
+    flex-direction: column;
+}
+.short-form-list-item{
+    display: flex;
+    flex-direction: row;
+    border-width: 0px 0px 2px 0px;
+}
+.small-text-line{
+    background-color:  #ebefff;
+    max-width: 600px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    resize: none;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.form-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+.form-header p{
+    width: 150px;
+    margin: 5px;
+    text-align: right;
+
+}
+.short-form-radio-item{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    background-color: rgb(205, 208, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.short-form-radio-item p{
+    width: 150px;
+}
+.short-form-radio-itemB p{
+    width: 150px;
+}
+.short-form-radio-itemB{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    background-color: rgb(229, 231, 253);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+/* D4 */ 
+.identity-map{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+.map-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-bubble textarea{
+    background-color:  #b6c5ff;
+    border-color: #708dff;
+    border-width: 3px;
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    padding: 10px;
+    color: #3b3b3b;
+    resize: none;
+    margin: 2px;
+    text-align: center;
+
+}
+.small-bubbles{
+    display: flex;
+}
+.small-bubble textarea{
+    background-color:  #cecece;
+    border-color: #909090;
+    border-width: 3px;
+    width:80px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    color: #3b3b3b;
+    resize: none;
+    margin: 2px;
+    text-align: center;
+}
+
+
+/* THIS PART IS FOR THE FAIRNESS RATING */
+.fairness-options{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fairness-options .scale-labels{
+    max-width: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.rating-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.rating-container input {
+    display: none; /* Hide radio buttons */
+}
+.rating-container label {
+    border: 1px solid #9d9dfa;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover Effect */
+.rating-container label:hover {
+    background-color: #9d9df8;;
+    border-color: #7676da;;
+}
+
+/* Selected (Checked) Effect */
+.rating-container input:checked + label {
+    background-color: #6f6fed;;
+    color: white;
+    border-color: #6f6fed;
+}
+
+/* Scale Labels */
+.scale-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+
